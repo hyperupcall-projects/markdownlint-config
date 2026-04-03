@@ -4,10 +4,10 @@
 	"type": "module",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/hyperupcall-self/markdownlint-config"
+		"url": "https://github.com/hyperupcall-projects/markdownlint-config"
 	},
 	"bugs": {
-		"url": "https://github.com/hyperupcall-self/markdownlint-config/issues"
+		"url": "https://github.com/hyperupcall-projects/markdownlint-config/issues"
 	},
 	"author": "Edwin Kofler <edwin@kofler.dev> (https://edwinkofler.com)",
 	"private": false,
@@ -21,7 +21,7 @@
 		"lint": "hyperupcall-scripts-nodejs lint"
 	},
 	"devDependencies": {
-		"@hyperupcall/scripts-nodejs": "0.7.1"
+		"@hyperupcall/scripts-nodejs": "0.9.0"
 	},
 	"markdownlint-cli2": {
 		"extends": "./node_modules/@hyperupcall/markdownlint-config/.markdownlint.json"
