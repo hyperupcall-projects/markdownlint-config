@@ -1,7 +1,2 @@
-declare const config: {
-	$schema: string
-	default: boolean
-	[rule: `MD${string}`]: Record<string, unknown>
-}
-
+declare const config: import('markdownlint').Configuration
 export default config
