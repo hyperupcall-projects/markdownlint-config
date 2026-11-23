@@ -14,6 +14,6 @@ In `.markdownlint.json`:
 
 ```js
 {
-	"extends": "./node_modules/@hyperupcall/markdownlint-config/.markdownlint.json"
+	"extends": "./node_modules/@hyperupcall/scripts-nodejs/.markdownlint.mjs"
 }
 ```
