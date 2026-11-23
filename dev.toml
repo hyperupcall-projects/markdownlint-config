@@ -1,2 +1,5 @@
 [repository-lint]
 ignoredChecks = ["nodejs/markdownlint"]
+
+[rules]
+"nodejs/markdownlint/markdownlint-must-not-have-dependencies" = "off"

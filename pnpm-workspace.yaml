@@ -4,3 +4,5 @@ publicHoistPattern:
   - prettier
   - 'eslint'
   - '@commitlint/cli'
+minimumReleaseAgeExclude:
+  - '@hyperupcall/scripts-nodejs@0.15.2'
